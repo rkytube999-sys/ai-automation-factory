@@ -1,29 +1,29 @@
-### Lead Magnet
+### Auto-lead Gen for Digital Marketing Agency
 **Tool:** Zapier
-**Desc:** Automate lead generation with a free eBook or webinar
-**Prompt:** Create a Zap that adds new subscribers to Airtable when they download a free eBook or attend a webinar on {{ $json.state.niche }}. Use Notion to store contact information and follow up with a series of emails. Blueprint: {{ JSON.stringify($json.state.blueprint) }}.
-**Hook:** Sponsored eBooks or webinars
+**Desc:** Automate lead generation for a digital marketing agency using Zapier.
+**Prompt:** Generate a Zapier automation that pulls new leads from a Google Form into a Notion database, and then triggers a sequence of emails to nurture those leads. Blueprint: {revenue_target: $1000/mo, seller_role: Lead Generator}.
+**Hook:** Email marketing campaigns and lead generation services
 
-### Email Sequence
+### Automated Social Media Posting
 **Tool:** Notion
-**Desc:** Send automated email sequences to subscribers
-**Prompt:** Use Notion to create a template for email sequences and Zapier to automate sending emails to new subscribers on {{ $json.state.niche }}. Follow up with a series of emails that promote products or services related to the niche. Blueprint: {{ JSON.stringify($json.state.blueprint) }}.
-**Hook:** Affiliate marketing or sponsored products
+**Desc:** Automate social media posting for a small business using Notion.
+**Prompt:** Create a Notion page that generates social media posts based on a schedule and content library, and then automates posting to multiple social media platforms. Blueprint: {revenue_target: $500/mo, seller_role: Social Media Manager}.
+**Hook:** Social media management services
 
-### Product Research
+### Online Course Enrollment Automation
 **Tool:** Zapier
-**Desc:** Automate product research for Amazon or Etsy
-**Prompt:** Use Zapier to scrape product data from Amazon or Etsy on {{ $json.state.niche }}. Store the data in Airtable and use Notion to analyze trends and opportunities. Blueprint: {{ JSON.stringify($json.state.blueprint) }}.
-**Hook:** Private label products or Amazon FBA
+**Desc:** Automate online course enrollment for an educator using Zapier.
+**Prompt:** Generate a Zapier automation that pulls new enrollments from a payment gateway into a Notion database, and then assigns students to a specific course in a learning management system. Blueprint: {revenue_target: $2000/mo, seller_role: Course Creator}.
+**Hook:** Online course creation and sales
 
-### Customer Support
+### Client Onboarding Automation
 **Tool:** Notion
-**Desc:** Automate customer support with chatbots
-**Prompt:** Use Zapier to integrate chatbots with Airtable on {{ $json.state.niche }}. Use Notion to store customer support tickets and follow up with customers. Blueprint: {{ JSON.stringify($json.state.blueprint) }}.
-**Hook:** Sponsored products or services
+**Desc:** Automate client onboarding for a service-based business using Notion.
+**Prompt:** Create a Notion page that generates onboarding workflows based on client type and project scope, and then automates email and task assignments to onboarding teams. Blueprint: {revenue_target: $1500/mo, seller_role: Operations Manager}.
+**Hook:** Operations management services
 
-### Content Calendar
+### Real Estate Lead Capture and Nurture
 **Tool:** Zapier
-**Desc:** Automate content creation with a content calendar
-**Prompt:** Use Notion to create a content calendar for {{ $json.state.niche }}. Use Zapier to automate social media posting and email notifications. Blueprint: {{ JSON.stringify($json.state.blueprint) }}.
-**Hook:** Sponsored content or affiliate marketing
+**Desc:** Automate lead capture and nurturing for a real estate agent using Zapier.
+**Prompt:** Generate a Zapier automation that pulls new leads from a website form into a Notion database, and then triggers a sequence of emails and text messages to nurture those leads. Blueprint: {revenue_target: $1200/mo, seller_role: Real Estate Agent}.
+**Hook:** Real estate lead generation and sales
